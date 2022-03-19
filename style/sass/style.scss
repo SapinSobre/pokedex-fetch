@@ -1,0 +1,20 @@
+body{
+    background-image: url('../../images/pokedex.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    .main{
+        width: 100vw;        
+        width: 50vw;
+        margin-left: 25vw;
+        display: flex;
+        flex-direction: column;
+        .search{
+           // background-color: lightblue;
+            height: 10vw;
+        }
+        .result{
+          //  background-color: lightgreen;
+            height: 20vw;
+        }
+    }    
+}
