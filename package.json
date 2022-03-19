@@ -1,0 +1,23 @@
+{
+  "name": "pokedex-fetch",
+  "version": "1.0.0",
+  "description": "[Github page]: https://SapinSobre.github.io/pokedex-fetch/ [Github page]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "sass --watch style.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SapinSobre/pokedex-fetch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SapinSobre/pokedex-fetch/issues"
+  },
+  "homepage": "https://github.com/SapinSobre/pokedex-fetch#readme",
+  "dependencies": {
+    "sass": "^1.49.7"
+  }
+}
