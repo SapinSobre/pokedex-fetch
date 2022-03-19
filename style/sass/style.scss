@@ -1,20 +1,48 @@
 body{
-    background-image: url('../../images/pokedex.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: hsl(0, 0%, 27%); 
+    height:100vw;  
     .main{
-        width: 100vw;        
-        width: 50vw;
-        margin-left: 25vw;
+        background-image: url('../../images/pokedex.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 55vw;        
+        height: 40vw;
+        margin-left: 22.5vw;
+        margin-top: 3.4vw;
         display: flex;
-        flex-direction: column;
-        .search{
-           // background-color: lightblue;
-            height: 10vw;
+        flex-direction: row;
+        .leftScreen{
+            .leftScreen_search{
+                background-color: lightblue;
+                width: 50vw;
+                height: 10vw;
+                .leftScreen_search_form{
+                    .search_label{
+
+                    }
+                    .search_input{
+
+                    }
+                    .search_button{
+
+                    }
+                }
+            }
+            .leftScreen_result{
+                .result_img{
+
+                }
+            }
         }
-        .result{
-          //  background-color: lightgreen;
-            height: 20vw;
+        .rightScreen{
+            .rightScreen_result{
+                background-color: lightgreen;
+                width: 50vw;
+                height: 20vw;
+                .result_name{
+
+                }
+            }
         }
     }    
 }
